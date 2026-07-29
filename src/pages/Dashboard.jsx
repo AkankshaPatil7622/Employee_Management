@@ -1,8 +1,15 @@
 import React from 'react'
+import Cards from '../components/Cards'
 
 function Dashboard() {
   return (
-    <div>Dashboard</div>
+    <>
+    <h1>Welcome Akanksha</h1>
+    <Cards cardName={"Total employees"}/>
+    <Cards cardName={"Departments"}/>
+    <Cards cardName={"Active Employee"}/>
+    <Cards cardName={"New joiners"}/>
+    </>
   )
 }
 

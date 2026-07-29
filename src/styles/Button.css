@@ -1,0 +1,9 @@
+.global-btn{
+    background: linear-gradient(135deg,  purple, rgb(245, 33, 156));
+    border: none;
+    color: white;
+    padding: 5px;
+    width: 10%;
+    height: 8%;
+    border-radius: 5px;
+}

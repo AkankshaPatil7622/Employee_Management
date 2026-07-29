@@ -1,0 +1,33 @@
+.login-root{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(32, 32, 32);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+}
+.gradient-text{
+    background: linear-gradient(90deg, purple, rgb(243, 59, 151));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    line-height: 1.8;
+    
+}
+#login-card{
+    height: 70%;
+    width: 60%;
+    align-self: center;
+    border: 1px solid purple;
+    box-shadow: 2px 2px 5px purple;
+    border-radius: 5px;
+}
+#login-card Input{
+width: 50%;
+    margin: 5px;
+    padding: 5px;
+}
+
+#login-card label{
+    text-align: left;
+}
