@@ -1,0 +1,28 @@
+.sidebar-container{
+    height: 100%;
+    width: 250px;
+}
+
+.sidebar-container ul{
+    list-style: none;
+}
+
+.sidebar-container a {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    padding: 10px;
+    text-decoration: none;
+    color: rgb(90, 14, 52);
+    /* box-sizing: border-box; */
+}
+
+.sidebar-container a:hover{
+    background: linear-gradient(90deg,rgb(189, 59, 189),rgb(252, 118, 185));
+    color:#fff;
+    width: 100%;
+    padding: 10px;
+    transition: all 0.3s ease-in-out;
+    font-weight: 600;
+}

@@ -22,11 +22,15 @@
     box-shadow: 2px 2px 5px purple;
     border-radius: 5px;
 }
-#login-card Input{
+#login-card Input {
 width: 50%;
     margin: 5px;
     padding: 5px;
+    border: 1px solid rgb(161, 37, 161);
+    border-radius: 4px;
 }
+
+
 
 #login-card label{
     text-align: left;

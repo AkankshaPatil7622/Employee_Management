@@ -1,3 +1,32 @@
 #navbar{
+    height: 15vh;
+    width: 100%;
+    background: linear-gradient(90deg,purple,rgb(83, 5, 44));
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#navbar ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
     
+}
+
+#navbar ul li{
+    margin-right: 100px;
+    padding: 10px;
+   
+}
+
+#navbar ul li:hover{
+    text-decoration: underline;
+    text-underline-offset: 4px;
+    text-decoration-thickness: 0.4px;
+    transition: all 0.4s ease-in-out;
+   
 }
