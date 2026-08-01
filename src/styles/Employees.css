@@ -1,0 +1,45 @@
+.table-container{
+    overflow: hidden;
+    
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+
+}
+table th,
+table td{
+    border: 1px solid purple;
+    padding: 7px;
+    text-align: left;
+    min-height: 30px;
+    font-size: 0.8em;
+    color: rgb(90, 14, 52);
+}
+table thead{
+     background: linear-gradient(90deg, purple, rgb(185, 26, 106));
+
+    color: white;
+}
+table th{
+    color: white;
+}
+table tbody tr:hover{
+    background: rgb(255, 223, 239);
+}
+
+table i{
+    margin: 2px;
+    
+}
+
+.table-top-area{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.table-top-area h2{
+    color: rgb(185, 26, 106);
+    margin-right: 10px;
+}

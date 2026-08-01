@@ -2,12 +2,15 @@
     background: linear-gradient(135deg,  purple, rgb(245, 33, 156));
     border: none;
     color: white;
-    padding: 5px;
-    width: 10%;
-    height: 8%;
+    padding: 5px 12px;
+    width: auto;
+    height: 7%;
     cursor: pointer;
     transition: all 0.5s ease;
     border-radius: 5px;
+    font-size: 1em;
+    font-weight: 600;
+    margin: 10px opx;
 }
 .global-btn:hover{
     background: linear-gradient(135deg, rgb(105, 0, 105), rgb(196, 20, 125));

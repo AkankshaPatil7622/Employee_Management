@@ -2,9 +2,11 @@
     height: calc(100vh - 15vh);
     width: 100%;
     display: flex;
+    position: relative;
 }
 
 .main-content{
     flex: 1;
-    background-color: bisque;
+   
+    
 }

@@ -1,7 +1,8 @@
 #navbar{
     height: 15vh;
     width: 100%;
-    background: linear-gradient(90deg,purple,rgb(83, 5, 44));
+    /* background: linear-gradient(90deg,purple,rgb(83, 5, 44)); */
+    background: linear-gradient(90deg,purple,rgb(185, 26, 106));
     color: white;
     display: flex;
     justify-content: space-between;

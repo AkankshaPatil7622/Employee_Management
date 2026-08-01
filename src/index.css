@@ -109,3 +109,8 @@ code {
   padding: 4px 8px;
   background: var(--code-bg);
 }
+
+.colorPallet{
+  color: rgb(90, 14, 52);
+  background: linear-gradient(90deg,rgb(109, 41, 109),rgb(185, 26, 106));
+}
